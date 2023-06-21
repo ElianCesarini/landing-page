@@ -13,10 +13,17 @@ nav{
     display: flex;
     justify-content:space-between;
     align-items: center;
+    background-color: blueviolet;
+    padding: 1rem;
 }
 
 ul{
     list-style: none;
     display: flex;
     gap: 15px;
+}
+
+ul a{
+    color: whitesmoke;
+    text-decoration: none;
 }
