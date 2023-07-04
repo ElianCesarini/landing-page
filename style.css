@@ -3,21 +3,39 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+}
+
+header{
+    height: 65px;
 }
 
 body{
     font-family: 'Rubik', sans-serif;
-}
+    background: #141E30;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-img{
-    width: 150px;
+
+
+
+
+
+}
+  /* =====================Navbar===================== */
+
+.logo{
+    width: 30px;
 }
 
 nav{
     display: flex;
     justify-content:space-between;
     align-items: center;
-    background-color: blueviolet;
+    background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     padding: 1rem;
 }
 
@@ -31,3 +49,70 @@ ul a{
     color: whitesmoke;
     text-decoration: none;
 }
+
+/* =====================Hero Section===================== */
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: whitesmoke;
+}
+
+#hero{
+    max-width: 1200px;
+    margin-top: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.hero-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    width: 50%;
+    margin-right: 20px;
+
+
+}
+
+
+
+.hero-info h1{
+    font-size: 40px;
+   
+}
+
+.hero-info p{
+    font-size: 20px;
+    width: 80%;
+}
+
+
+.hero-info a{
+    color: whitesmoke;
+    text-decoration: none;
+    background-color:#141E30;
+    padding: 8px 12px;
+    border-radius: 8px;
+    
+    
+
+}
+
+
+
+
+.hero-img img{
+    width: 500px;
+    
+    
+}
+
+
