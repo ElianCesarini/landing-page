@@ -115,4 +115,35 @@ main{
     
 }
 
+/* =====================Info Section===================== */
+
+#info{
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 85px 0px;
+    max-width: 1200px;
+
+}
+
+
+.info{ 
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px
+}
+
+
+.info h2{
+    font-size: 25px;
+}
+
+
+.info p{
+    width: 50%;
+    font-size: 18px;
+}
 
