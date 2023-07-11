@@ -193,11 +193,91 @@ main{
 }
 
 /* =====================Contact Section===================== */
+#contact{
+    display:flex ;
+    
+    margin: 40px 0px;
+    max-width: 1200px;
+    gap: 20px;
+   
 
+}
+
+
+.contact-info{
+    display:flex ;
+    flex-direction:row;
+    justify-content:flex-start;
+    align-items: center;
+    margin-top: 100px;
+    max-width: 1200px;
+    gap: 100px;
+
+}
+
+.local-1{
+    display:flex ;
+    flex-direction: column;
+    gap: 10px;
+    margin-right: 40px;
+
+}
+
+.local-1 ul{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 40px;
+}
 .local-1 img{
     width: 20px;
     background-color:#1d2232 ;
 }
 
+.local-2 ul{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 50px;
+    
+}
 
+
+.local-2 img{
+    width: 20px;
+    background-color:#1d2232 ;
+}
+
+
+.img-local{
+    display: flex;
+    align-content: end;
+    justify-content: end;
+    width: 50%; 
+    margin-top: 100px;
+}
+
+.img-local img{
+    width: 60%;
+}
+
+.contact-icons{
+    display:flex ;
+    margin-top: 80px;
+}
+
+
+.contact-icons img{
+    width: 20px;
+
+
+}
+
+
+/* =====================footer Section===================== */
+
+.fotter img{ 
+    width: 20px;
+
+}
 
