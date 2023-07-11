@@ -63,7 +63,7 @@ main{
 
 #hero{
     max-width: 1200px;
-    margin-top: 65px;
+    margin-top: 130px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -122,7 +122,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 85px 0px;
+   margin-top: 85px;
     max-width: 1200px;
 
 }
@@ -146,4 +146,51 @@ main{
     width: 50%;
     font-size: 18px;
 }
+
+
+/* =====================Cards Section===================== */
+
+#cards{
+    display:flex ;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    margin: 85px 0px;
+    max-width: 1200px;
+    gap: 20px;
+
+}
+.cards{
+    display:flex ;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background-color:#1d2232;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    width: 300px;
+    gap: 15px;
+    padding: 20px;
+}
+
+
+.cards img{
+    width: 15%;
+}
+
+.cards h2{
+    font-size: 20px;
+}
+
+
+.cards p{
+    width: 80%;
+    align-content: center;
+    justify-content: center;
+}
+
+
 
