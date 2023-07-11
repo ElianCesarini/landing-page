@@ -24,6 +24,10 @@ background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, F
 }
   /* =====================Navbar===================== */
 
+  #menu-toggle, .menu-label{
+    display: none;
+  }
+
 .logo{
     width: 30px;
 }
@@ -276,8 +280,29 @@ main{
 
 /* =====================footer Section===================== */
 
-.fotter img{ 
-    width: 20px;
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    max-width: 1200px;
+    gap: 15px;
+    margin-bottom: 80px;
+    
+   
+}
 
+
+.footer img{ 
+    width: 70px;
+    margin-top: 120px;
+    margin-left: 130px;
+    
+
+
+}
+
+.footer p{
+    margin-right: 80px;
 }
 
