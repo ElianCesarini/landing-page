@@ -192,5 +192,12 @@ main{
     justify-content: center;
 }
 
+/* =====================Contact Section===================== */
+
+.local-1 img{
+    width: 20px;
+    background-color:#1d2232 ;
+}
+
 
 
